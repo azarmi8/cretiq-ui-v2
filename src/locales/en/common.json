@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "Cretiq",
+    "live": "Live Monitoring",
+    "collapse": "Collapse",
+    "page_under_construction": "Page \"{{page}}\" is under construction."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "samples": "Samples",
+    "curing": "Curing Tank",
+    "lab": "Laboratory",
+    "alerts": "Non-Conformances",
+    "analytics": "Analytics",
+    "env": "Environment",
+    "ai": "AI Assistant",
+    "world": "Factory World",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Quality Control Dashboard",
+    "subtitle": "Overview of laboratory status and active samples",
+    "active_samples": "Active Samples",
+    "curing_tank": "In Curing Tank",
+    "alerts": "Alerts",
+    "oee": "Factory OEE",
+    "count": "{{count}} samples",
+    "analytics": "Analytics & Tracking",
+    "updated": "Last updated"
+  },
+  "sample": {
+    "title": "Concrete Sample",
+    "casting_date": "Casting Date",
+    "test_age": "{{age}}-Day Test",
+    "days_remaining": "{{days}} days left",
+    "ready": "Ready",
+    "temperature": "Temp",
+    "humidity": "Humidity",
+    "status": {
+      "curing": "Curing",
+      "ready": "Ready for Test",
+      "warning": "Warning",
+      "danger": "Non-Conformance"
+    }
+  },
+  "chart": {
+    "title": "Resistance Chart",
+    "subtitle": "Compressive Strength Growth - {{grade}}",
+    "sample_ref": "Sample {{code}}",
+    "target": "Target: {{value}} MPa",
+    "ages": {
+      "3": "3 Days",
+      "7": "7 Days",
+      "28": "28 Days",
+      "90": "90 Days"
+    },
+    "current_strength": "Current Strength",
+    "predicted_28d": "Predicted 28-Day",
+    "status": "Status",
+    "optimal": "Optimal"
+  },
+  "samples": {
+    "title": "Samples",
+    "subtitle": "Register and monitor concrete samples with full test details",
+    "count": "{{count}} samples",
+    "groups": {
+      "identity": "Identity",
+      "technical": "Technical",
+      "fresh": "Fresh Concrete",
+      "day7": "7-Day",
+      "day28": "28-Day",
+      "day90": "90-Day",
+      "status": "Status"
+    },
+    "columns": {
+      "rowNumber": "No.",
+      "specimenNo": "Specimen No.",
+      "clientLabSpecimenNo": "Client Lab No.",
+      "waybillNo": "Waybill No.",
+      "clientName": "Client",
+      "projectAddress": "Project Address",
+      "concreteType": "Concrete Type",
+      "strengthClass": "Strength Class",
+      "mixDesignCode": "Mix Design Code",
+      "sectionLabel": "Section",
+      "batchingDetails": "Batching Details",
+      "breakerName": "Breaker",
+      "samplerName": "Sampler",
+      "mixerDriver": "Mixer/Driver",
+      "pumpDetails": "Pump Details",
+      "notes": "Notes",
+      "airRecorded": "Air (%)",
+      "specificWeight": "Sp. Weight",
+      "temperature": "Temp (°C)",
+      "slump": "Slump (cm)",
+      "weight7d1": "Weight #1",
+      "weight7d2": "Weight #2",
+      "strength7d1": "Cube #1 (kg/cm²)",
+      "strength7d2": "Cube #2 (kg/cm²)",
+      "weight28d1": "Weight #1",
+      "weight28d2": "Weight #2",
+      "strength28d1": "Cube #1 (kg/cm²)",
+      "strength28d2": "Cube #2 (kg/cm²)",
+      "weight90d": "Weight",
+      "strength90d": "Cube (kg/cm²)",
+      "sampledDate": "Sampled Date",
+      "sampledTime": "Sampled Time",
+      "cylinder7d": "Cylinder (MPa)",
+      "cylinder28d": "Cylinder (MPa)",
+      "cylinder90d": "Cylinder (MPa)",
+      "mean7dCube": "Mean Cube (kg/cm²)",
+      "mean7dCylinder": "Mean Cylinder (MPa)",
+      "mean28dCube": "Mean Cube (kg/cm²)",
+      "mean28dCylinder": "Mean Cylinder (MPa)"
+    }
+  },
+  "quality": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "warning": "Warning",
+    "critical": "Critical",
+    "unknown": "—",
+    "tooltip": {
+      "excellent": "Above 115% of target",
+      "good": "Above target",
+      "warning": "Slightly below target",
+      "critical": "Below acceptable threshold"
+    }
+  },
+  "command": {
+    "placeholder": "Search commands or pages...",
+    "empty": "No results found",
+    "navigate": "Navigate",
+    "select": "Select",
+    "results": "results",
+    "search": "Search",
+    "groups": {
+      "navigate": "Navigation",
+      "actions": "Actions"
+    }
+  }
+}

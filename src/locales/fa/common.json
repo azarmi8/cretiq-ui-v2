@@ -1,0 +1,143 @@
+{
+  "app": {
+    "name": "Cretiq",
+    "live": "پایش زنده",
+    "collapse": "جمع کردن",
+    "page_under_construction": "صفحه «{{page}}» در حال ساخت است."
+  },
+  "nav": {
+    "dashboard": "داشبورد",
+    "samples": "نمونه‌ها",
+    "curing": "حوضچه عمل‌آوری",
+    "lab": "آزمایشگاه",
+    "alerts": "عدم انطباق‌ها",
+    "analytics": "تحلیل‌ها",
+    "env": "محیط",
+    "ai": "دستیار AI",
+    "world": "دنیای کارخانه",
+    "reports": "گزارش‌ها",
+    "settings": "تنظیمات"
+  },
+  "dashboard": {
+    "title": "داشبورد کنترل کیفیت",
+    "subtitle": "نمای کلی از وضعیت آزمایشگاه و نمونه‌های در جریان",
+    "active_samples": "نمونه‌های فعال",
+    "curing_tank": "در حوضچه",
+    "alerts": "هشدارها",
+    "oee": "OEE کارخانه",
+    "count": "{{count}} نمونه",
+    "analytics": "تحلیل و پیگیری",
+    "updated": "آخرین به‌روزرسانی"
+  },
+  "sample": {
+    "title": "نمونه بتن",
+    "casting_date": "تاریخ قالب‌گیری",
+    "test_age": "آزمون {{age}} روزه",
+    "days_remaining": "{{days}} روز مانده",
+    "ready": "آماده",
+    "temperature": "دما",
+    "humidity": "رطوبت",
+    "status": {
+      "curing": "در حال عمل‌آوری",
+      "ready": "آماده آزمون",
+      "warning": "هشدار",
+      "danger": "عدم انطباق"
+    }
+  },
+  "chart": {
+    "title": "نمودار مقاومت",
+    "subtitle": "رشد مقاومت فشاری نمونه {{grade}}",
+    "sample_ref": "نمونه {{code}}",
+    "target": "هدف: {{value}} MPa",
+    "ages": {
+      "3": "۳ روز",
+      "7": "۷ روز",
+      "28": "۲۸ روز",
+      "90": "۹۰ روز"
+    },
+    "current_strength": "مقاومت فعلی",
+    "predicted_28d": "پیش‌بینی ۲۸ روزه",
+    "status": "وضعیت",
+    "optimal": "مطلوب"
+  },
+  "samples": {
+    "title": "نمونه‌ها",
+    "subtitle": "ثبت و پایش نمونه‌های بتن با تمام جزئیات آزمون",
+    "count": "{{count}} نمونه",
+    "groups": {
+      "identity": "شناسایی",
+      "technical": "فنی",
+      "fresh": "بتن تازه",
+      "day7": "۷ روزه",
+      "day28": "۲۸ روزه",
+      "day90": "۹۰ روزه",
+      "status": "وضعیت"
+    },
+    "columns": {
+      "rowNumber": "ردیف",
+      "specimenNo": "شماره نمونه",
+      "clientLabSpecimenNo": "شماره آزمایشگاه کارفرما",
+      "waybillNo": "شماره بارنامه",
+      "clientName": "نام کارفرما",
+      "projectAddress": "آدرس پروژه",
+      "concreteType": "نوع بتن",
+      "strengthClass": "رده مقاومتی",
+      "mixDesignCode": "کد طرح اختلاط",
+      "sectionLabel": "مقطع",
+      "batchingDetails": "مشخصات بچینگ",
+      "breakerName": "شکننده",
+      "samplerName": "نمونه‌گیر",
+      "mixerDriver": "پلاک/راننده میکسر",
+      "pumpDetails": "مشخصات پمپ",
+      "notes": "توضیحات",
+      "airRecorded": "هوا (%)",
+      "specificWeight": "وزن مخصوص",
+      "temperature": "دما (°C)",
+      "slump": "اسلامپ (cm)",
+      "weight7d1": "وزن آزمونه ۱",
+      "weight7d2": "وزن آزمونه ۲",
+      "strength7d1": "مکعبی ۱ (kg/cm²)",
+      "strength7d2": "مکعبی ۲ (kg/cm²)",
+      "weight28d1": "وزن آزمونه ۱",
+      "weight28d2": "وزن آزمونه ۲",
+      "strength28d1": "مکعبی ۱ (kg/cm²)",
+      "strength28d2": "مکعبی ۲ (kg/cm²)",
+      "weight90d": "وزن آزمونه",
+      "strength90d": "مکعبی (kg/cm²)",
+      "sampledDate": "تاریخ نمونه‌برداری",
+      "sampledTime": "ساعت نمونه‌برداری",
+      "cylinder7d": "استوانه‌ای (MPa)",
+      "cylinder28d": "استوانه‌ای (MPa)",
+      "cylinder90d": "استوانه‌ای (MPa)",
+      "mean7dCube": "میانگین مکعبی (kg/cm²)",
+      "mean7dCylinder": "میانگین استوانه‌ای (MPa)",
+      "mean28dCube": "میانگین مکعبی (kg/cm²)",
+      "mean28dCylinder": "میانگین استوانه‌ای (MPa)"
+    }
+  },
+  "quality": {
+    "excellent": "ممتاز",
+    "good": "خوب",
+    "warning": "هشدار",
+    "critical": "بحرانی",
+    "unknown": "—",
+    "tooltip": {
+      "excellent": "بیش از ۱۱۵٪ هدف",
+      "good": "بالای هدف",
+      "warning": "کمی زیر هدف",
+      "critical": "زیر حد قابل قبول"
+    }
+  },
+  "command": {
+    "placeholder": "دستور یا صفحه‌ای جستجو کنید...",
+    "empty": "نتیجه‌ای پیدا نشد",
+    "navigate": "پیمایش",
+    "select": "انتخاب",
+    "results": "نتیجه",
+    "search": "جستجو",
+    "groups": {
+      "navigate": "ناوبری",
+      "actions": "اقدامات"
+    }
+  }
+}
